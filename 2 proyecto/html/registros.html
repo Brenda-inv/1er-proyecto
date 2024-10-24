@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="../imagenes/img11.png" alt="logo" width="200">
+    </header>
+    <section>
+        <h2>registrarse</h2>
+        <form action="../html/home.html" method="get">
+            <input type="text" placeholder="nombre y apellido">
+            <input type="text" placeholder=" nombre de usuario">
+            <input type="email" placeholder="email">
+            <input type="date">
+            <input type="text" placeholder="direccion">
+            <label for="Perfil-del-usuario">cual es su razon para usar mercado liebre?</label>
+            <select name="Perfil-del-usuario" id="Perfil-del-usuario">
+                <option value="comprar">comprar</option>
+                <option value="vender">vender</option>
+                <option value="ambos">ambos</option>
+            </select>
+            <label for="Categorías-de-interés">Categorías de interés</label>
+            <input type="checkbox" name="Categorías-de-interés" value="Electro">Electro
+            <input type="checkbox" name="Categorías-de-interés" value=" Moda"> Moda
+            <input type="checkbox" name="Categorías-de-interés" value="Hogar">Hogar
+            <input type="checkbox" name="Categorías-de-interés" value="juguetería">juguetería
+            <input type="checkbox" name="Categorías-de-interés" value="Vida sana">Vida sana
+            <label for="usuario-contraseña">contraseña: </label> 
+            <label for="usuario-contraseña">repetir contraseña: </label> 
+            <input id="usuario-contraseña" type="password" />
+            <label for="Foto-de-usuario">foto de Perfil</label>
+            <input type="file" name="Foto-de-usuario" id="Foto-de-usuario" accept="image/*">
+            <button type="submit">login</button>
+            <button type="reset">limpiar</button>
+        </form>
+    </section>
+</body>
+</html>
